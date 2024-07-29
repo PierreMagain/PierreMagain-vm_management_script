@@ -2,7 +2,7 @@
 
 Ce dépôt contient des scripts de création/gestion/suppression de VM seulement sur KVM . Suivez ces étapes pour les configurer correctement.
 A savoir que ces script font appel des VM 'templates' selon les distribution de votre choix nommées 0-debian,0-ubuntu,0-rocky,... A vous de créer ces 'templates' en amont.
-A créer également en amont est le network dans lequel votre infrastructureva être.
+A créer également en amont est le network dans lequel votre infrastructure va être.
 
 ## Étapes de Configuration
 
@@ -18,7 +18,7 @@ mkdir -p /home/pierrem/Documents/Bin
 Ensuite ajoutez tout en bas de votre fichier ~/.basrc les deux lignes suivantes :
 
 ```sh
-sudo nano ~/.bashrc
+nano ~/.bashrc
 ```
 ```sh
 export PATH=$PATH:/home/pierrem/Documents/Bin
