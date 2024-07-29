@@ -22,7 +22,6 @@ nano ~/.bashrc
 ```
 ```sh
 export PATH=$PATH:/home/pierrem/Documents/Bin
-export PAGER=most
 ```
 et a ne pas oublier bien sur :
 
