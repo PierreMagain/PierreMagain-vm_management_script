@@ -15,7 +15,7 @@ mkdir -p /home/pierrem/Documents/Bin
 ```
 ###  2. Ajout du dossier Bin dans le bashrc
 
-Ensuite ajoutez tout en bas de votre fichier ~/.basrc les deux lignes suivantes :
+Ensuite ajoutez tout en bas de votre fichier ~/.basrc la ligne suivante :
 
 ```sh
 nano ~/.bashrc
@@ -29,8 +29,8 @@ et a ne pas oublier bien sur :
 source ~/.bashrc
 ```
 ###  3. Exemple d'utilisation
-Une fois tout ceci fait, en incluant les templates et le réseau,
-il vous suffit de créer un dossier avec dans lequel vous editez votre kvm-manager.conf (exemple mis dans le repo)
+Une fois tout ceci fait, en incluant les templates et le réseau,  
+il vous suffit de créer un dossier avec dans lequel vous editez votre kvm-manager.conf (exemple mis dans le repo)  
 et puis executer le script shell avec la commande suivante :
 
 ```sh
